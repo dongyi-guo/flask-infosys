@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-# Set up our vendored packages
-import setup_vendor_path  # noqa
+# # Set up our vendored packages
+# import setup_vendor_path  # noqa
 
 # Import our webapp
 from routes import app
@@ -9,7 +9,7 @@ from routes import app
 # Starting the python applicaiton
 if __name__ == '__main__':
     # Step 1: Change this port number if needed
-    PORT_NUMBER = 5000
+    PORT_NUMBER = 10492
 
     print("-"*70)
     print("""Welcome to Device Management Backend.\n
